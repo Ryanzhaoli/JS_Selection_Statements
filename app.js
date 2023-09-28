@@ -8,7 +8,7 @@ let magicNumber = 3;
 
 let guessNumber = prompt("What is the magic number?");
 
-if(guessNumber === magicNumber){
+if(guessNumber == magicNumber){
   console.log("congrats! You guessed the magic number!")
 }else if(guessNumber > magicNumber){
   console.log("Your magic number is too high, try again!")
@@ -19,13 +19,29 @@ if(guessNumber === magicNumber){
 let birthMonth = prompt("What is your birth month?");
 
 switch(birthMonth){
-  case "December","January","February": console.log("Winter");
+  case "December" : console.log("Winter");
   break;
-  case "March","April","May": console.log("Srping");
+  case "January": console.log("Winter");
   break;
-  case "June","July","August": console.log("Summer");
+  case "February": console.log("Winter");
   break;
-  case "September","October","November": console.log("Fall");
+  case "March": console.log("Srping");
+  break;
+  case "April": console.log("Srping");
+  break;
+  case "May": console.log("Srping");
+  break;
+  case "June": console.log("Summer");
+  break;
+  case "July": console.log("Summer");
+  break;
+  case "August": console.log("Summer");
+  break;
+  case "September": console.log("Fall");
+  break;
+  case "October": console.log("Fall");
+  break;
+  case "November": console.log("Fall");
   break;
 
 }
